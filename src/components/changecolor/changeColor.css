@@ -1,0 +1,23 @@
+.btn_0 {
+    background-color: #e53e3e ;
+}
+.btn_1 {
+    background-color: #dd6b20;
+}
+.btn_2 {
+    background-color: #faf089;
+}
+.btn_3 {
+    background-color: #48bb78;
+}
+.btn_4 {
+    background-color: #81e6d9;
+}
+.btn_5 {
+    background-color: #d53f8c;
+}
+
+.btn_0, .btn_1, .btn_2, .btn_3, .btn_4, .btn_5 {
+    width:100px;
+    height: 100px
+}
