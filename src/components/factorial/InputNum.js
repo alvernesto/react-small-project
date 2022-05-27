@@ -6,7 +6,7 @@ const InputNum = (props) => {
     const onBlur = (e) => {
         e.preventDefault();
         console.log('event from input', e.target.value);
-        if (e.target.value >= 20) {
+        if (e.target.value > 20) {
             setAlert('Really ? ... ', 'Light');
         } else {
             getNumber(e.target.value);
