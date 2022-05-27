@@ -1,12 +1,16 @@
 import React from 'react'
 
 const InputNum = (props) => {
-    const { getNumber } = props;
-   
+    const { getNumber, setAlert } = props;
+
     const onBlur = (e) => {
         e.preventDefault();
         console.log('event from input', e.target.value);
-        getNumber(e.target.value);
+        if (e.target.value >= 20) {
+            setAlert('Really ? ... ', 'Light');
+        } else {
+            getNumber(e.target.value);
+        }
     }
 
     return (
