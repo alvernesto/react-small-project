@@ -6,8 +6,8 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Home from './pages/Home';
 import Factorial from './pages/Factorial';
-import Converter from './pages/Converter'; 
-import ChangeColor from './pages/ChangeColor'; 
+import Converter from './pages/Converter';
+import ChangeColor from './pages/ChangeColor';
 import './App.css';
 
 class App extends Component {
@@ -27,6 +27,7 @@ class App extends Component {
           <div className='container'>
             <Switch>
               <Route exact path='/' component={Home} />
+              <Route exact path='/react-small-project' component={Home} />
               <Route exact path='/factorial' component={Factorial} />
               <Route exact path='/converter' component={Converter} />
               <Route exact path='/changecolor' component={ChangeColor} />
