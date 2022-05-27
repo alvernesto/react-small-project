@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import Factorial from './pages/Factorial';
 import Converter from './pages/Converter'; 
 import ChangeColor from './pages/ChangeColor'; 
-import ValidatorForm from './pages/ValidatorForm'; 
 import './App.css';
 
 class App extends Component {
@@ -31,7 +30,6 @@ class App extends Component {
               <Route exact path='/factorial' component={Factorial} />
               <Route exact path='/converter' component={Converter} />
               <Route exact path='/changecolor' component={ChangeColor} />
-              <Route exact path='/validator' component={ValidatorForm} />
               <Route exact path='/about' component={About} />
             </Switch>
           </div>

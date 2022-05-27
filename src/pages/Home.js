@@ -16,9 +16,6 @@ const Home = () => {
                     <div>
                         <Link to='/changecolor' className='btn btn-white btn-lg my-1'>Color tab</Link>
                     </div>
-                    <div>
-                        <Link to='/validator' className='btn btn-white btn-lg my-1'>Validate Form</Link>
-                    </div>
                 </div>
             </div>
         </>
